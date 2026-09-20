@@ -1,0 +1,46 @@
+# Build trees
+build/
+build-*/
+out/
+cmake-build-*/
+install/
+_stage/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.cmake.stamp
+
+# Compiler / linker artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.a
+
+# Runtime debris
+*.log
+*.tmp
+*.snapshot.tmp
+core
+core.*
+*.dmp
+ttf-state/
+scratch/
+temp/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
